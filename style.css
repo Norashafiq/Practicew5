@@ -1,0 +1,159 @@
+
+#background{position: fixed; 
+    top: 0; 
+    left: 0; 
+  
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+background-color: black;
+}
+.sidebar {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    /* border: 1px s; */
+
+    border-radius: 20px;
+    background: black;
+
+
+}
+
+.sidebar:hover {
+    transform: translateY(-20px);
+    z-index: 10;
+
+}
+
+
+.sidebar:after {
+
+    content: '';
+    position: absolute;
+    top: calc(-1 * 10px);
+    left: calc(-1 * 10px);
+    height: calc(100% + 10px * 2);
+    width: calc(100% + 10px * 2);
+    background: linear-gradient(to left, #743ad5, #d53a9d, rgb(128, 0, 115), rgb(52, 2, 2), rgb(100, 47, 100), rgb(214, 110, 146), rgb(210, 120, 131));
+    border-radius: calc(2 * 10px);
+    z-index: -1;
+    animation: animate 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+} 
+
+
+.maincontent {
+    position: relative;
+    top: 50px;
+    left: 250px;
+    background-color: black;
+    border-radius: 20px;
+    color:white;
+}
+.maincontent:hover {
+    transform: translateY(-20px);
+    z-index: 10;
+
+}
+.maincontent:after {
+
+    content: '';
+    position: absolute;
+    top: calc(-1 * 10px);
+    left: calc(-1 * 10px);
+    height: calc(100% + 10px * 2);
+    width: calc(100% + 10px * 2);
+    background: linear-gradient(to left, #5d1342, rgb(8, 0, 7), rgb(52, 2, 2), rgb(11, 0, 11), rgb(21, 17, 18), rgb(70, 5, 13));
+    border-radius: calc(2 * 10px);
+    z-index: -1;
+    animation: animate 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+
+h1 {
+    height: 80px;
+    background-color: pink;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+    /* background-image: url(images/draw.jpg); 
+    opacity:1;
+    background-size: cover;
+    background-position: center; */
+}
+
+.color {
+    font-size: 25px;
+
+}
+
+.important {
+    color: red;
+}
+
+.footer1 {
+    width:auto;
+    height: 40px;
+    position: relative;
+    top:825px;
+    color:black;
+
+    text-align: center;
+    background-color: pink;
+   
+} 
+
+.music{
+   
+    position: absolute;
+    top:64%;
+    left:0;
+    right:0;
+    margin: 0;
+
+}
+
+.btn{
+    background-color: transparent;
+    color:azure;
+    font-size: 78px;
+    border: none;
+    display: block;
+    opacity: .3;
+    transition: all linear .2s;
+    position: relative;
+}
+
+.video{
+    height:100px;
+    width:100px;
+    position: relative;
+    right:1400px;
+    top: 400px;
+}

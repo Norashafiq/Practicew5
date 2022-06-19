@@ -1,4 +1,8 @@
 
+*{
+
+    font-family: 'Nuosu SIL', serif;
+}
 #background{position: fixed; 
     top: 0; 
     left: 0; 
@@ -96,11 +100,12 @@ background-color: black;
 
 h1 {
     height: 80px;
-    background-color: pink;
+    background-color: #37020b;
     border-radius: 50px;
     text-align: center;
-    position: relative;
-    top: 10px;
+    color:white;
+   
+    
 
     /* background-image: url(images/draw.jpg); 
     opacity:1;
@@ -108,13 +113,17 @@ h1 {
     background-position: center; */
 }
 
+
+
 .color {
     font-size: 25px;
+    color:pink;
+    text-decoration: underline;
 
 }
 
 .important {
-    color: red;
+    color:rgb(44, 126, 44);
 }
 
 .footer1 {
@@ -122,10 +131,11 @@ h1 {
     height: 40px;
     position: relative;
     top:825px;
-    color:black;
+    color:pink;
 
     text-align: center;
-    background-color: pink;
+    background-color: #37020b ;
+   border-radius: 20px;
    
 } 
 
@@ -155,5 +165,13 @@ h1 {
     width:100px;
     position: relative;
     right:1400px;
-    top: 400px;
+    top: 450px;
+}
+.topic{
+color:pink;
+text-align: inline;
+font-size:14px;
+white-space: nowrap;
+
+
 }
